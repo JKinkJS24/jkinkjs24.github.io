@@ -14,6 +14,9 @@
             <input type="text" name="" id="iNombre" placeholder="Nombre">
         </div>
         <div class="contenido">
+            <input type="number" name="" id="iEdad" placeholder="Edad">
+        </div>
+        <div class="contenido">
             <input type="number" name="" id="iAltura" placeholder="Altura">
         </div>
         <div class="contenido">
@@ -32,6 +35,7 @@
     function calcular()
     {
         let altura = document.getElementById("iAltura").value;
+        let edad = document.getElementById("iEdad").value;
         let peso = document.getElementById("iPeso").value;
         let imc = calcularIMC(peso,altura);
         document.getElementById("resultado").innerHTML=imc;
