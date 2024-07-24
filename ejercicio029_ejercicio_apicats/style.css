@@ -1,0 +1,88 @@
+/* Estilos básicos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Contenedor principal */
+#cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilo para cada tarjeta de gato */
+.cat {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+/* Añadir un pequeño efecto de hover en las tarjetas */
+.cat:hover {
+    transform: translateY(-10px);
+}
+
+/* Contenedor de imagen */
+.image {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Imágenes responsivas */
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Descripción del gato */
+.description {
+    padding: 15px;
+}
+
+/* Nombre de la raza */
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #73247e;
+}
+
+/* Sumario y temperamento */
+.description div {
+    margin-bottom: 10px;
+}
+
+/* Barra separadora */
+hr {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2em;
+    font-weight: bold;
+    color: #73247e;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .cat {
+        width: 100%;
+    }
+}
