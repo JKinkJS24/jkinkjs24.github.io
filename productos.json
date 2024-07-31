@@ -1,0 +1,24 @@
+{
+    "productos": [
+        {
+            "nombre": "Auriculares Inalámbricos ZX-200",
+            "precio": 49.99
+        },
+        {
+            "nombre": "Teclado Mecánico RGB GX1",
+            "precio": 89.95
+        },
+        {
+            "nombre": "Cafetera Espresso Barista Pro",
+            "precio": 129.50
+        },
+        {
+            "nombre": "Monitor Curvo UltraWide QHD",
+            "precio": 299.99
+        },
+        {
+            "nombre": "Smartwatch Fitness Tracker Pro",
+            "precio": 75.00
+        }
+    ]
+}
